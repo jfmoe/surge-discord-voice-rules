@@ -1,6 +1,7 @@
 # NAME: DiscordVoice
 # SOURCE: discord-voice-ip.yaml
-# UPDATED: 2026-06-20T03:38:16Z
-# IP-CIDR: 1
-# TOTAL: 1
+# UPDATED: 2026-06-20T03:45:01Z
+# IP-CIDR: 2
+# TOTAL: 2
+IP-CIDR,104.29.132.44/32,no-resolve
 IP-CIDR,104.29.132.98/32,no-resolve
