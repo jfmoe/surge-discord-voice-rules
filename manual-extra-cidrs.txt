@@ -1,0 +1,3 @@
+# Manually captured Discord voice IP CIDRs.
+# These are merged into discord-voice-ip.list by scripts/update.rb.
+104.29.132.98/32

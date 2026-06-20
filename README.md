@@ -13,3 +13,5 @@ RULE-SET,https://raw.githubusercontent.com/jfmoe/surge-discord-voice-rules/main/
 The rule set only contains IP CIDR rules. The policy name is intentionally kept in your local Surge profile.
 
 Source: https://raw.githubusercontent.com/FQrabbit/SSTap-Rule/refs/heads/master/rules/Discord-All.rules
+
+Manually captured IPs that are missing from the upstream source live in `manual-extra-cidrs.txt` and are merged during updates.

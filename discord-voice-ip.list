@@ -1,6 +1,6 @@
 # Discord voice IP CIDR rules for Surge
 # Source: https://raw.githubusercontent.com/FQrabbit/SSTap-Rule/refs/heads/master/rules/Discord-All.rules
-# Generated: 2026-06-20T03:08:20Z
+# Generated: 2026-06-20T03:16:27Z
 IP-CIDR,1.0.0.1/32,no-resolve
 IP-CIDR,5.200.14.128/25,no-resolve
 IP-CIDR,23.105.224.0/19,no-resolve
@@ -279,3 +279,4 @@ IP-CIDR,213.179.192.0/19,no-resolve
 IP-CIDR,213.196.52.0/24,no-resolve
 IP-CIDR,213.196.55.0/24,no-resolve
 IP-CIDR,213.198.67.0/24,no-resolve
+IP-CIDR,104.29.132.98/32,no-resolve
