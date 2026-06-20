@@ -1,17 +1,28 @@
-# Surge Discord Voice Rules
+# Surge Discord Rules
 
-A Surge rule set for Discord voice IP CIDR ranges.
+Surge rule sets for Discord and manually maintained Discord voice IP CIDR ranges.
 
 ## Usage
 
 Add this to the `[Rule]` section of your Surge profile:
 
 ```ini
-RULE-SET,https://raw.githubusercontent.com/jfmoe/surge-discord-voice-rules/main/discord-voice-ip.list,Discord
+RULE-SET,https://raw.githubusercontent.com/jfmoe/surge-discord-voice-rules/main/Discord.list,Discord
 ```
 
-The rule set only contains IP CIDR rules. The policy name is intentionally kept in your local Surge profile.
+## Rule Sets
 
-Source: https://raw.githubusercontent.com/FQrabbit/SSTap-Rule/refs/heads/master/rules/Discord-All.rules
+- `Discord.list`: blackmatrix7's Surge Discord rules plus the local Discord voice IP rules.
+- `DiscordVoice.list`: only the local Discord voice IP rules.
 
-Manually captured IPs that are missing from the upstream source live in `manual-extra-cidrs.txt` and are merged during updates.
+## Maintenance
+
+Discord domain rules are synced daily from:
+
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Discord/Discord.list
+
+To add or update Discord voice IPs, edit `discord-voice-ip.yaml`, then run:
+
+```bash
+ruby scripts/update.rb
+```
