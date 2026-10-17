@@ -1,7 +1,7 @@
 # NAME: Discord
 # SOURCE: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Discord/Discord.list
 # VOICE-SOURCE: discord-voice-ip.yaml
-# UPDATED: 2026-10-16T08:11:56Z
+# UPDATED: 2026-10-17T07:49:03Z
 # TOTAL: 32
 DOMAIN-SUFFIX,airhorn.solutions
 DOMAIN-SUFFIX,airhornbot.com
